@@ -1,0 +1,49 @@
+/**index.wxss**/
+.home{
+  height:100%;
+ 
+  background-color: #35a2de;
+  color:#fff;
+  position: relative;
+}
+.city_name{
+  text-align: center;
+  display: block;
+  font-size:70rpx;
+}
+.dingwei{
+  width:60rpx;
+  height:72rpx;
+}
+.weahter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  top:150rpx;
+  height:1000rpx;
+}
+.temperature{
+  font-size:100rpx
+}
+.weather_img{
+  width:400rpx;
+  height:400rpx;
+}
+
+.pos{
+  position: absolute;right:30rpx;top:30rpx;
+  width:60rpx;
+  height:72rpx;
+}
+
+.tip{
+  width:600rpx;
+  font-size:32rpx;
+  display: block;
+  background-color: rgba(0,0,0,.5);
+  padding:20rpx;
+  line-height: 45rpx;
+  border-radius: 20rpx
+}

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#35a2de",
+    "navigationBarTitleText": "我的天气盒子",
+    "navigationBarTextStyle":"white"
+  }
+}

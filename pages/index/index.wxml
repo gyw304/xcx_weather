@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="home">
+
+    <loading hidden="{{hidden}}">
+        加载中...
+    </loading>
+
+    <view class="weahter">
+        <text class="city_name">{{city_name}}</text>
+        <image class="weather_img" mode="aspectFit" src="../../images/{{img}}.png"></image>
+        <text class="info">{{info}}</text>
+        <text class="temperature">{{temperature}}℃</text>
+        <text class="tip">{{chuanyi}}</text>
+    </view>
+    
+
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="pos">
+        <image class="dingwei" mode="aspectFit" src="../../images/dingwei.png"></image>
+    </picker>
+    
+
+</view>
+
+
